@@ -5,16 +5,35 @@ body {
   color: #3a3846;
   font-size: 10px;
 }
+li{
+    font-size:18px;
+    display:inline;
+}
+a:hover{
+    color:#E1BB47;
+}
+p{
+    font-size:25px;
+    
+}
+ul{
+    list-style-type: none;
+    font-size: large;
+    display: inline;
+
+}
 
 header {
-  height: 20px;
-  background-color: #639a88;
+  height: 50px;
+  background-color: #3A3846;
+
 }
 
 h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 3rem;
-  display: inline;
+  padding: 1rem;
+  
 }
 
 o {
@@ -24,9 +43,12 @@ o {
 img {
   max-width: 500px;
   float: left;
-  padding: 2rem;
+  padding: 1rem;
 }
 
-li:nth-child(2) {
-  padding: 2rem;
+a{
+    font-size: 20px;
+    color: #DED9DD;
+    text-decoration:none;
+    
 }
